@@ -22,6 +22,14 @@ header {
   color: white;
 }
 
+.layout {
+  width: 100%;
+
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
@@ -72,12 +80,14 @@ footer {
 <body>
 
 <header>
+  <section class="layout">
   <div>
-    <div class="cleanslate w24tz-current-time w24tz-small" style="display: inline-block !important; visibility: hidden !important; min-width:200px !important; min-height:80px !important;"><p><a href="//24timezones.com/Kolkata/time" style="text-decoration: none" class="clock24" id="tz24-1663233715-c154-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMCIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjMyMmVlYjNhZGQ2MCIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="Kolkata Time" target="_blank">India</a></p><div id="clock_block_cb6322eeb3add60"></div></div>
-    <div class="cleanslate w24tz-current-time w24tz-small" style="display: inline-block !important; visibility: hidden !important; min-width:200px !important; min-height:80px !important;"><p><a href="//24timezones.com/State-of-New-York/time" style="text-decoration: none" class="clock24" id="tz24-1663233297-su27-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMCIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjMyMmVkMTE2NDA0OSIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="World Time :: New York" target="_blank">New York</a></p><div id="clock_block_cb6322ed1164049"></div></div>
-    <div class="cleanslate w24tz-current-time w24tz-small" style="display: inline-block !important; visibility: hidden !important; min-width:200px !important; min-height:80px !important;"><p><a href="//24timezones.com/time-zone/pkt" style="text-decoration: none" class="clock24" id="tz24-1663258956-tzpkt-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMCIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjMyMzUxNGNmMmNiZSIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="current time in PKT" target="_blank">Pkt</a></p><div id="clock_block_cb6323514cf2cbe"></div></div>
+    <div class="cleanslate w24tz-current-time w24tz-small" style="display: inline-block !important; visibility: hidden !important; min-width:160px !important; min-height:80px !important;"><p><a href="//24timezones.com/Kolkata/time" style="text-decoration: none" class="clock24" id="tz24-1663233715-c154-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMCIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjMyMmVlYjNhZGQ2MCIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="Kolkata Time" target="_blank">India</a></p><div id="clock_block_cb6322eeb3add60"></div></div>
+    <div class="cleanslate w24tz-current-time w24tz-small" style="display: inline-block !important; visibility: hidden !important; min-width:160px !important; min-height:80px !important;"><p><a href="//24timezones.com/State-of-New-York/time" style="text-decoration: none" class="clock24" id="tz24-1663233297-su27-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMCIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjMyMmVkMTE2NDA0OSIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="World Time :: New York" target="_blank">New York</a></p><div id="clock_block_cb6322ed1164049"></div></div>
+    <div class="cleanslate w24tz-current-time w24tz-small" style="display: inline-block !important; visibility: hidden !important; min-width:160px !important; min-height:80px !important;"><p><a href="//24timezones.com/time-zone/pkt" style="text-decoration: none" class="clock24" id="tz24-1663258956-tzpkt-eyJob3VydHlwZSI6MTIsInNob3dkYXRlIjoiMCIsInNob3dzZWNvbmRzIjoiMSIsImNvbnRhaW5lcl9pZCI6ImNsb2NrX2Jsb2NrX2NiNjMyMzUxNGNmMmNiZSIsInR5cGUiOiJkYiIsImxhbmciOiJlbiJ9" title="current time in PKT" target="_blank">Pkt</a></p><div id="clock_block_cb6323514cf2cbe"></div></div>
     <script type="text/javascript" src="//w.24timezones.com/l.js" async></script>
   </div>
+  </section>
 </header>
 
 <section>
@@ -96,3 +106,5 @@ footer {
 
 </body>
 </html>
+
+
